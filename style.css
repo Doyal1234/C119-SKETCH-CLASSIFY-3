@@ -1,0 +1,47 @@
+body{
+background-color: yellow;
+}
+
+#score{
+font-size: 32px;
+margin-left: 985px;
+
+}
+
+#timer{
+font-size: 32px;
+float: left;
+}
+
+#drawn{
+font-size: 28px;
+color: purple;
+}
+
+h1 {
+color: rgb(255, 0, 68);
+background-color: rgb(215, 186, 142);
+}
+
+#show_sketch{
+float: right;
+}
+
+canvas{
+border: 5px solid white;
+border-radius: 20px;
+animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{box-shadow: 1px 1px 38px rgb(111, 202, 7);}
+to{box-shadow: 1px 1px 38px rgb(255, 0, 230);}
+}
+
+p{
+padding-top: 10px;
+font-size: 25px;
+}
